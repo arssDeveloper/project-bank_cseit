@@ -1,0 +1,42 @@
+
+@media (max-width:700px){
+
+    .sessaoLogin{
+        background-position: right top;
+        background-image: center;
+        background-position-y: -80px;
+        background-position-x: 280px;
+    }
+
+    #user, #senha{
+        padding: 10px;
+        margin: 1px;
+        border-radius: 12px;
+        border: 1px solid greenyellow;
+        font-size: 10pt;
+        font-weight: 700;
+    }
+
+    #btnLogin{
+        border-radius: 12px;
+        margin-top: 5px;
+        border: none;
+        font-size: 10pt;
+        font-weight: 700;
+        color: black;
+        padding: 5px;
+    } 
+
+    #btnLogin:hover{
+        background-color: green;
+        color: white;
+        padding: 8px;
+        transition: all 0.5s ease; 
+    }
+    
+    #user:hover, #senha:hover{
+        padding: 14px;
+        transition: all 0.5s ease;
+    }
+
+}

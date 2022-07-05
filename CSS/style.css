@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.sessaoLogin {
+    display:grid;
+    background-color: black;
+    /* max-width: 1280px; */
+    /* border: 1px solid red; */
+    margin: auto;
+    height: 100vh;
+    background-image: url(/Imagens/SEIT_Bank-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: Poppins;
+}
+
+label{
+    font-size: 30pt;
+    color: red;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-bottom: 5px;
+}
+
+#user, #senha{
+    padding: 20px;
+    margin: 1px;
+    border-radius: 12px;
+    border: 1px solid greenyellow;
+    font-size: 15pt;
+    font-weight: 700;
+}
+
+#btnLogin{
+    border-radius: 12px;
+    margin-top: 5px;
+    border: none;
+    font-size: 15pt;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    font-family: Poppins;
+}  
+
+#btnLogin:hover{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    transition: all 0.5s ease; 
+}
+
+#user:hover, #senha:hover{
+    padding: 25px;
+    transition: all 0.5s ease;
+}
