@@ -4,8 +4,9 @@
     .sessaoLogin{
         background-position: right top;
         background-image: center;
-        background-position-y: -80px;
-        background-position-x: 280px;
+        background-position-y: -40px;
+        background-position-x: 270px;
+        background-size: 300px;
     }
 
     #user, #senha{
